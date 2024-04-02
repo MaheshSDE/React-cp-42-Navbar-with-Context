@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.navbar-container {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  border-bottom: 1px solid #171f46;
+}
+
+.navbar-container-dark {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  border-bottom: 1px solid #171f46;
+  background-color: #334155;
+}
+
+.website-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link-dark {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.theme {
+  height: 40px;
+  width: 40px;
+}
+
+.theme-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

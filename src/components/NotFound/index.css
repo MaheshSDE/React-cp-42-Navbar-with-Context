@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.not-found-container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-container-dark {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.not-found-image {
+  height: 200px;
+  width: 200px;
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #000000;
+}
+
+.not-found-heading-dark {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.not-found-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #000000;
+}
+
+.not-found-description-dark {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
